@@ -1,8 +1,43 @@
  *{
      margin: 2.0;
      padding: 0;
-     box-sizing: border-box;
+     
  }
+
  body {
-     background-color: rgb(0, 0, 0);
+     font-family: 'Prompt', Anek Telugu ;
+     background-color: #23292e;
+     color: white;
+     text-align: center;
+ }
+
+
+ .title{
+     font-family: 'Prompt', DynaPuff ;
+     font-size: xx-large;
+     text-transform: uppercase;
+
+ }
+
+ .b{
+    background-color: #32cdac;
+    padding: 1px;
+    border: none;
+    flex: 100;
+    color: #0f1726;
+    font-size: 14px;
+    font-weight: bold;
+ }
+
+ #lista > li{
+     background-color: white;
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 20px;
+     border-radius: 4px;
+     text-align: left;
+     font-size: 16;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
